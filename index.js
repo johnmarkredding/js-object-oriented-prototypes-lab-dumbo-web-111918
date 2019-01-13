@@ -1,4 +1,6 @@
-BoardMember.prototype.veto = 
+BoardMember.prototype.veto = function(){
+  return 'No, I must disagree'
+};
 
 function BoardMember(name, homeState, training){
   this.name = name;
