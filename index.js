@@ -4,6 +4,9 @@ BoardMember.prototype.veto = function(){
 BoardMember.prototype.approve = function(){
   return 'You can do that!';
 };
+BoardMember.prototype.doCharity = function(){
+  return "I like to help people."
+};
 
 function BoardMember(name, homeState, training){
   this.name = name;
@@ -11,9 +14,7 @@ function BoardMember(name, homeState, training){
   this.training = training;
 
   
-  this.doCharity = function(){
-    return "I like to help people."
-  }
+  this.
 
   this.releasePressStatement = function(){
     return "You will see great things from Scuber."
